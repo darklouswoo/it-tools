@@ -38,6 +38,7 @@ export default defineConfig({
           ],
       strictMessage: false,
       escapeHtml: true,
+      dropMessageCompiler: true,
     }),
     AutoImport({
       imports: [
